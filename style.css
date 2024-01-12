@@ -219,3 +219,40 @@ textarea {
     background: #FFF;
     border: 0;
 }
+
+/*  !! RESPONSIVE STYLES !! */
+
+.hide{
+    display: none;
+}
+
+@media screen and (max-width:576px){
+
+    nav, .banner, .about-info-container, .about, .skills-container, .resume-container, footer, #what-i-do-description, hr {
+        flex-direction:column;
+        margin:0;
+        padding: 0;
+
+    }
+
+    main {
+        width: 400px;
+        margin:0;
+    }
+
+    .banner .profile-picture{
+        width: 100%;
+    }
+
+    .footer{
+
+    }
+
+    .footer-column{
+        margin-left: 100px;
+    }
+
+    .btn-primary{
+        margin-bottom: 15px;
+    }
+}
