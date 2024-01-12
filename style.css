@@ -252,7 +252,20 @@ textarea {
         margin-left: 100px;
     }
 
-    .btn-primary{
+    .btn-primary {
         margin-bottom: 15px;
     }
+
+    body{
+        margin: 0 auto;
+    }
+    .banner-content {
+        margin-left: 12px;
+    }
+main{
+    margin-left: 7px;
+}
+.resume-container{
+    margin-left: 3px;
+}
 }
